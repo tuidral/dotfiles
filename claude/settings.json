@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+
+  "alwaysThinkingEnabled": true,
+  "cleanupPeriodDays": 365,
+
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Bash(git *)",
+      "Bash(python *)",
+      "Bash(uv *)",
+      "Bash(pytest *)",
+      "Bash(ruff *)",
+      "Bash(docker *)"
+    ],
+    "deny": [
+      "Read(.env)",
+      "Read(.env.*)",
+      "Read(**/secrets/**)"
+    ]
+  },
+
+  "attribution": {
+    "commits": false,
+    "pullRequests": false
+  },
+
+  "env": {
+    "BASH_DEFAULT_TIMEOUT_MS": "30000"
+  }
+}
