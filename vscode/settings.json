@@ -1,0 +1,28 @@
+{
+  // Editor
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": false,
+  "editor.formatOnSave": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  // Appearance
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin-mocha",
+  // Files
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  // Terminal
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  // Git
+  "git.autofetch": true,
+  // Extensions
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "telemetry.telemetryLevel": "off",
+  "security.workspace.trust.untrustedFiles": "open",
+  "claudeCode.preferredLocation": "panel"
+}
